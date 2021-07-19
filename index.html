@@ -1,12 +1,225 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom z wyobraźnią</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="./vendor/bootstrap-grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <section class="header">
+        <div class="container-fluid headpic">
+            <div class="row">
+                <nav class="navbar navbar fixed-top navbar-expand-md navbar-light bg-light">
+                    <a class="navbar-brand title">Dom z wyobraźnią</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu"
+                        aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-8 collapse navbar-collapse" id="mobile-menu">
+                        <ul class="navbar-nav" id="mobile-menu">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">STRONA GŁÓWNA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">OFERTA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">REALIZACJE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">O NAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">KONTAKT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="col-12">
+                    <h1 class="pb-5">WITAJ W NASZYM STUDIO!</h1>
+                    <h2 class="pb-5">ZOBACZ NASZE PROJEKTY</h2>
+                    <button class="btn btn-light">ZOBACZ WIĘCEJ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="container">
+            <div class="row">
+                <div class="title section col-12">
+                    <h2>OFERTA</h2>
+                    <p>To od Państwa oczekiwań uzależniamy zakres wykonywanych usług</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row no-gutters">
+                        <div class="col-md-2 d-none d-md-block">
+                            <p class="number">1</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h3 class="card-title">KONCEPCJA</h3>
+                                <p class="card-text">Proces projektowy rozpoczyna się od ustalenia potrzeb
+                                    i oczekiwań Inwestora. Informacje te są podstawą do stworzenia koncepcji, która
+                                    wprowadza projekt w dany styl oraz
+                                    ukierunkowuje go w kolejnych etapach.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row no-gutters">
+                        <div class="col-md-2 d-none d-md-block">
+                            <p class="number">2</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h3 class="card-title">ADAPTACJE</h3>
+                                <p class="card-text">Jako pierwsze powstają układy funkcjonalne. Są to rzuty, które
+                                    pokazują w jaki sposób możemy zaprojektować daną
+                                    przestrzeń.
+                                    W zależności od preferencji klient wybiera ten rzut, który odpowiada mu najbardziej
+                                    lub łączymy kilka obszarów z różnych
+                                    rysunków
+                                    i tworzymy ostateczną wersję.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-md-block"></div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row no-gutters">
+                        <div class="col-md-2 d-none d-md-block">
+                            <p class="number">3</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h3 class="card-title">WIZUALIZACJE</h3>
+                                <p class="card-text">Gdy układ funkcjonalny jest już gotowy przechodzimy do opracowania
+                                    wizualizacji wnętrz.
+                                    Wizualizacje mają pokazać ostateczny wygląd projektu. W tym etapie tworzymy również
+                                    listę wyposażenia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row no-gutters">
+                        <div class="col-md-2 d-none d-md-block">
+                            <p class="number">4</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h3 class="card-title">RYSUNKI WYKONAWCZE</h3>
+                                <p class="card-text">Ostatnim elementem są rysunki wykonawcze, przedstawiają szczegółowo
+                                    zwymiarowane rzuty, widoki oraz detale. Ten elemen pozwala na realizację projektu w
+                                    każdym, najmniejszym szczególe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="title section col-12">
+                    <h2>NASZE PORTFOLIO</h2>
+                    <p>Zapraszamy do zapoznania się z naszymi realizacjami!</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="card text-white col-lg-6 mt-0">
+                        <img src="https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Apartament we Wrocławiu</h5>
+                            <p class="card-text">realizacja na osiedlu Pogodnym</p>
+                        </div>
+                    </div>
+                    <div class="card text-white col-lg-6">
+                        <img src="https://images.pexels.com/photos/6198661/pexels-photo-6198661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Apartament w Warszawie</h5>
+                            <p class="card-text">realizacja na osiedlu Słonecznym</p>
+                        </div>
+                    </div>
+                    <div class="card text-white col-lg-6">
+                        <img src="https://images.pexels.com/photos/6958146/pexels-photo-6958146.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Mieszkanie w Gdańsku</h5>
+                            <p class="card-text">realizacja na osiedlu Deszczowym</p>
+                        </div>
+                    </div>
+                    <div class="card text-white col-lg-6">
+                        <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Mieszkanie w Gdyni</h5>
+                            <p class="card-text">realizacja na osiedlu "Przy klifie"</p>
+                        </div>
+                    </div>
+                    <div class="card text-white col-lg-6">
+                        <img src="https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Mieszkanie we Wrocławiu</h5>
+                            <p class="card-text">realizacja na osiedlu "Olimpia Port"</p>
+                        </div>
+                    </div>
+                    <div class="card text-white col-lg-6">
+                        <img src="https://images.pexels.com/photos/3315291/pexels-photo-3315291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Mieszkanie w Sopocie</h5>
+                            <p class="card-text">realizacja na osiedlu Przyjaznym</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer py-3">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-between">
+                <div class="footeri col-5 text-center pt-3">
+                    <p>@ Copyright 2021</p>
+                </div>
+                <div class="footeri col-7">
+                    <ul class="list-inline">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
