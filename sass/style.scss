@@ -1,0 +1,106 @@
+$font-title: "Caveat", cursive;
+
+.title {
+  font-family: $font-title;
+}
+
+h1,
+h2 {
+  font-family: $font-title;
+  transform: translateY(50%);
+}
+
+.col-12 {
+  text-align: center;
+  width: 80%;
+  margin: 5vh auto;
+  color: black;
+}
+
+.col-4 {
+  margin: 2vh auto;
+}
+
+.col-lg-6 {
+  margin: auto;
+  border: none;
+}
+
+.nav-link {
+  color: black;
+}
+
+i {
+  border-radius: 50%;
+  border: black solid 5px;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  background: black;
+  color: white;
+}
+
+ul i {
+  text-align: center;
+  padding-top: 4px;
+}
+
+.container-fluid {
+  height: auto;
+}
+
+.headpic {
+  background: url("https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260");
+  background-size: cover;
+  height: 130vh;
+}
+
+.number {
+  font-size: 40px;
+  border: rgb(235, 235, 235) 2px solid;
+  text-align: center;
+}
+
+.portfolio {
+  height: auto;
+}
+
+.card-img-overlay {
+  text-align: center;
+  transform: translateY(50%);
+}
+
+div .card {
+  max-height: 90vh;
+}
+.card {
+  overflow: hidden;
+  padding: 10px;
+  object-fit: cover;
+}
+
+img {
+  object-fit: cover;
+  transition: all 1s;
+  width: 200px;
+  height: 700px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.card-img-overlay {
+  display: none;
+}
+
+.card:hover .card-img-overlay {
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .footeri {
+    width: 20vw;
+    height: 20vh;
+  }
+}
