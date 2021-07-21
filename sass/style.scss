@@ -10,6 +10,10 @@ h2 {
   transform: translateY(50%);
 }
 
+.subtitle {
+  font-size: 24px;
+}
+
 .col-12 {
   text-align: center;
   width: 80%;
@@ -17,12 +21,7 @@ h2 {
   color: black;
 }
 
-.col-4 {
-  margin: 2vh auto;
-}
-
 .col-lg-6 {
-  margin: auto;
   border: none;
 }
 
@@ -96,11 +95,4 @@ img:hover {
 
 .card:hover .card-img-overlay {
   display: block;
-}
-
-@media (min-width: 576px) {
-  .footeri {
-    width: 20vw;
-    height: 20vh;
-  }
 }
